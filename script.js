@@ -73,7 +73,7 @@ actionSpeech = (speechText) => {
       image1.classList.remove("hide")
       break;
     default:
-      window.open("https://www.google.com/?search=" + speechText);
+      window.open("https://www.google.com/search?q=" + speechText , "_self");
       break;
       // do nothing yet
   }
