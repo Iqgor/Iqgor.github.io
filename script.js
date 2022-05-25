@@ -57,7 +57,7 @@ actionSpeech = (speechText) => {
       image1.classList.remove("hide") // show image
       break;
     case "help me":
-      alert("Valid speech commands: black,  reset, next page");
+      alert("Valid speech commands: igor,  reset, caroline, iphone , jeroen, horloge");
       break;
     case "iphone":
       window.open("https://www.apple.com/nl/iphone/", "_self");
